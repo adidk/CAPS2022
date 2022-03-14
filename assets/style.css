@@ -1,9 +1,7 @@
 body {
-    background-image: url(Background.jpg);
-    background-size: cover;
-    background-position: center center;
-    background-attachment: fixed;
-    color: #010101;
+    background-color: #99B0D2;
+    backdrop-filter: blur(1rem);
+    /* color: ; */
 }
 
 .card {
@@ -30,4 +28,9 @@ body {
     border-right-color: #5798fa2e;
     box-shadow: 0.3rem 0.3rem 0.3rem rgba(0, 0, 0, 0.2);
     text-decoration: solid;
+}
+
+.pd-120 {
+    padding-left: 120px;
+    padding-right: 120px;
 }
