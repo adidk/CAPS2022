@@ -15,8 +15,8 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid pd-120">
+    <nav class="navbar sticky-top navbar-expand-lg  navbar-light bg-light">
+        <div class="container pd-20">
             <a class="navbar-brand" href="#">CAPS</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -38,14 +38,34 @@
                 </ul>
             </div>
             <ul class="navbar-nav d-flex justify-content-end">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
-                    </li>
-                </ul>
-                <button class="btn btn-primary" type="submit">Login</button>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
+            </ul>
+            <button class="btn btn-primary" type="submit">Login</button>
         </div>
     </nav>
 
+    <main id="hero-area">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <div class="card" style="width: 18rem;">
+                        <img src="..." class="card-img-top" alt="...">
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <p class="hero-text-p">
+                        Replacement, Repair, and Maintenance
+                    </p>
+                    <h1 class="hero-text-h">Best solution to fix your Apple device</h1>
+                    <p class="hero-text-p">
+                        Kami bergerak dibidang jasa service APPLE iDevice yang berdiri sejak 2012, dengan di bekali pengalaman dalam bidang perbaikan perangkat keras khususnya APPLE iDevice.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </main>
     <!-- bootstrap js -->
     <script src="assets/bootstrap/js/bootstrap.js"></script>
 </body>
