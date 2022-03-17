@@ -10,6 +10,8 @@
     <!-- bootstrap  -->
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.css">
 
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="assets/fontawesome/css/fontawesome.css">
     <!-- custom css -->
     <link rel="stylesheet" href="assets/style.css">
 </head>
@@ -47,27 +49,34 @@
     </nav>
 
     <main id="hero-area">
-        <div class="container">
+        <div class="container mt-3 mb-3">
             <div class="row align-items-center">
-                <div class="col-lg-6">
-                    <div class="card" style="width: 18rem;">
-                        <img src="..." class="card-img-top" alt="...">
+                <div class="col-lg-6 d-flex justify-content-center">
+                    <div class="card" style=" background-image: url('assets/image/heroimage.jpg');">
+                        <div class="card herosmall" style=" background-image: url('assets/image/heroimage.jpg');">
+                        </div>
                     </div>
                 </div>
-                <div class="col-lg-6">
-                    <p class="hero-text-p">
+                <div class="col-lg-6 mt-3">
+                    <p class="hero-text-p mb-3">
                         Replacement, Repair, and Maintenance
                     </p>
-                    <h1 class="hero-text-h">Best solution to fix your Apple device</h1>
-                    <p class="hero-text-p">
+                    <h1 class="hero-text-h mb-3">Best solution to fix your Apple device</h1>
+                    <p class="hero-text-p mb-3">
                         Kami bergerak dibidang jasa service APPLE iDevice yang berdiri sejak 2012, dengan di bekali pengalaman dalam bidang perbaikan perangkat keras khususnya APPLE iDevice.
                     </p>
+                    <button type="button" class="btn btn-outline-light btn-rounded">Booking Service
+                        </button>
+                        <i class="fas fa-home"></i>
                 </div>
             </div>
         </div>
     </main>
     <!-- bootstrap js -->
     <script src="assets/bootstrap/js/bootstrap.js"></script>
+
+    <!-- fontawesome -->
+    <script src="assets/fontawesome/js/fontawesome.js"></script>
 </body>
 
 </html>

@@ -40,15 +40,13 @@
         }
         
         .card {
-            padding: 3rem 2.5rem;
+            height: 405px;
+            width: 408px;
             border-radius: 1rem;
-            border: 1px solid transparent;
             backdrop-filter: blur(1rem);
             box-shadow: 1.3rem 1.3rem 1.3rem rgba(0, 0, 0, 0.3);
-            border-top-color: rgba(0, 0, 0, 0.1);
-            border-left-color: rgba(0, 0, 0, 0.1);
-            border-bottom-color: rgba(225, 225, 225, 0.1);
-            border-right-color: rgba(225, 225, 225, 0.1);
+            background-size: cover;
+            background-position: 60% 50%;
         }
         
         .cb1 {
@@ -157,4 +155,22 @@
         
         .center {
             margin: auto;
+        }
+        
+        .herosmall {
+            width: 206px;
+            height: 249px;
+            position: absolute;
+            top: 200px;
+            left: 250px;
+        }
+        
+        .btn-rounded {
+            font-family: 'Pragmatica ExtraLight Reg';
+            letter-spacing: 0.1em;
+            padding-top: 15px;
+            padding-bottom: 15px;
+            padding-left: 18px;
+            border-radius: 3rem;
+            font-size: 18px;
         }
